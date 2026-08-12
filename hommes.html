@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hommes — Adora Beauty</title><link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  .style-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(220px, 1fr));
+    gap: 24px;
+  }
+  .style-card {
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,.12);
+    padding: 26px 24px;
+    min-height: 150px;
+    box-shadow: 0 12px 30px rgba(0,0,0,.05);
+  }
+  .style-card .style-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    background: rgba(215,179,106,.16);
+    color: var(--gold, #d7b36a);
+    font-weight: 800;
+    margin-bottom: 14px;
+  }
+  .style-card h3 {
+    margin: 0 0 8px;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    line-height: 1.06;
+  }
+  .style-card p {
+    margin: 0;
+    color: var(--muted, #6f6a70);
+    font-size: 14px;
+  }
+  @media (max-width: 800px) {
+    .style-gallery { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body class="men-page">
+<header class="site-header dark-header"><a class="logo" href="index.html"><span>Adora</span> Beauty</a><button class="menu-toggle">☰</button>
+<nav class="nav"><a href="index.html">Accueil</a><a href="femmes.html">Femmes</a><a class="active" href="hommes.html">Hommes</a><a href="services.html">Services & tarifs</a><a href="contact.html">Contact</a></nav></header>
+<main>
+<section class="page-hero men-hero"><div><p class="eyebrow">ADORA BEAUTY — HOMMES</p><h1>Net. Moderne.<br><em>100% tressé.</em></h1><p>Des lignes précises et des styles masculins réalisés avec soin par Nina.</p></div></section>
+<section class="section dark-section"><div class="section-heading"><div><p class="eyebrow gold">INSPIRATIONS HOMMES</p><h2>Des lignes propres, un style affirmé</h2></div><p>Montrez votre modèle à Nina sur WhatsApp pour connaître la faisabilité et le tarif.</p></div>
+<div class="gallery style-gallery">
+<article class="style-card"><span class="style-number">01</span><h3>Braids longues</h3><p>Une allure nette, affirmée et facile à maintenir.</p></article>
+<article class="style-card"><span class="style-number">02</span><h3>Nattes & détails</h3><p>Des lignes précises et une finition très propre.</p></article>
+<article class="style-card"><span class="style-number">03</span><h3>Inspiration créative</h3><p>Un style personnalisé selon votre morphologie et votre look.</p></article>
+</div></section>
+<section class="dark-cta"><p class="eyebrow gold">À PARTIR DE 5 000 FCFA</p><h2>Votre prochain style commence ici.</h2><a class="btn btn-gold" href="https://wa.me/221779846252?text=Bonjour%20Nina%2C%20je%20souhaite%20prendre%20rendez-vous%20pour%20une%20coiffure%20homme." target="_blank">Réserver sur WhatsApp</a></section>
+</main>
+<footer class="footer footer-dark"><div><a class="logo" href="index.html"><span>Adora</span> Beauty</a><p>Tresses africaines à Dakar.</p></div><div><strong>Adresse</strong><p>279 Cité Touba Renaissance<br>Mamelles, Dakar</p></div><div><strong>WhatsApp</strong><p><a href="https://wa.me/221779846252">+221 77 984 62 52</a><br><a href="https://wa.me/33606822476">+33 6 06 82 24 76</a></p></div></footer>
+<script src="script.js"></script></body></html>
